@@ -1,0 +1,28 @@
+.alert-container {
+  width: 30em;
+  padding: 1em 2em;
+  border: 1px solid #AFAFAF;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.alert-container-default {
+  background-color: #D3D3D3;
+}
+
+.alert-container-success {
+  background-color: #90EE90;
+}
+
+.alert-container-warning {
+  background-color: #FFFF00;
+}
+
+.alert-header {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  align-items: center;
+  font-weight: bold;
+}
